@@ -1,0 +1,87 @@
+
+
+body{
+    font-style: "Times New Roman", Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    background: url("image.png.jpg");
+}
+.container{
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+   
+    background-color: transparent;
+    
+    border-radius: 19px;
+    /* border: 1px solid black; */
+    /* box-shadow: 0 2px 5px white; */
+}
+h1{
+    text-align: center;
+    color: black;
+}
+.converter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input[type="number"]{
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: larger;
+}
+select,button{
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: larger;
+}
+button{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-size: larger;
+}
+.result{
+    margin-top: 25px;
+    text-align: center;
+    color:white;
+    font-weight: bold;
+}
+#result1{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 70px;
+    margin-right: 50%;
+    text-align: center;
+}
+.conv{
+    display: flex;
+    margin-top: 10px;
+}
+#unitTo{
+    margin: 10px;
+}
+#unitFrom{
+    margin: 10px;
+}
+/* textarea{
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+     */
+
+/* } */
+
+
